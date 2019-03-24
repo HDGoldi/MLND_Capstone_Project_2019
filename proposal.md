@@ -40,4 +40,5 @@ At its core, this is an accuracy problem, as failure to identify a piece right w
 
 ### Project Design
 
+The following software will be used: Python 3 w/ Numpy, MatplotLib, OpenCV and Keras
 
