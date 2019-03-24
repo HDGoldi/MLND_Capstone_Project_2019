@@ -42,3 +42,21 @@ At its core, this is an accuracy problem, as failure to identify a piece right w
 
 The following software will be used: Python 3 w/ Numpy, MatplotLib, OpenCV and Keras
 
+The flow is made up five steps:  Image input which will be given to the image preprocessor then to the CNN agent and followed to the output generator. In the end, there will be an array as output.  
+A class will take care of the first image preprocessing. It will split each image into the 64 separate pieces and save them as a dictionary with a default value. Next, it will be sent to a CNN agent, the CNN agent assigned a label to each piece by updating the default value. It is followed by the output generator which will take care of generating the digital interpretation of the chess board and generate a matching output file. 
+
+The complete setup has two different modes, training and prediction. The three main classes will have all key function as outlined here: 
+1. Image Preprocessing:
+* Training: Split of images into 64 separate images. Display of pictures and ask a user for input on a piece. An image will be saved to a separate folder corresponding to the piece.
+* Prediction: Spit of images into 64 different images and store them in a dictionary with a default value. The output than used by CNN agent.
+
+2. CNN Agent:
+* Training: Given a set of training, test and validation images containing separate images. Use of Keras to train CNN, two different models will be checked, custom CNN as well as transfer learning approach. The best weights will be exported as a file for prediction
+* Prediction: Use exported file from training and take sperate images from a split chess board to predict piece in a square.
+
+
+3. Output Generator: 
+* Training: Output of accuracy and other metrics for CNN agent.
+* Prediction: Output of digital representation of chess board.
+
+Splitting of images is done multiple steps. Start with using OpenCV build in algorithms to find inner corners of chess board followed by extrapolation of edges. Then perspective transformation to ensure its only a square image which shows the full chess board. Splitting into 64 black and white photos each being 135x135 pixels big. The individual pieces can be used for CNN for training or prediction depending on the mode. 
