@@ -41,8 +41,3 @@ At its core, this is an accuracy problem, as failure to identify a piece right w
 ### Project Design
 
 
-
-### References
-* Computer Vision Wikipedia. (n.d.). Retrieved from Wikipedia: https://en.wikipedia.org/wiki/Computer_vision#Recognition
-* Keras metrics. (n.d.). Retrieved from Keras Documentation: https://keras.io/metrics/
-* Meyer, J. (n.d.). Raspberry Turk. Retrieved from Raspberry Turk: http://www.raspberryturk.com
