@@ -23,14 +23,14 @@ Run `pyton ChessMain.py`
 
 Output will look like the following example:
 
-`Predicted chess board:
-br|bn|bb|bq|br|bb|bn|br
-bn|bp|bp|bp|bp|bp|bp|bp
-es|es|es|es|es|es|es|es
-es|es|es|es|es|es|es|es
-es|es|es|es|es|es|es|es
-es|es|es|es|es|es|es|es
-wp|wp|wp|wp|wp|wp|wp|wp
+`Predicted chess board:\
+br|bn|bb|bq|br|bb|bn|br\
+bn|bp|bp|bp|bp|bp|bp|bp\
+es|es|es|es|es|es|es|es\
+es|es|es|es|es|es|es|es\
+es|es|es|es|es|es|es|es\
+es|es|es|es|es|es|es|es\
+wp|wp|wp|wp|wp|wp|wp|wp\
 wr|wn|wb|wq|wk|wb|wn|wr`
 
 ## Setup
