@@ -74,14 +74,14 @@ Capstone Project
 ## Overview of Output Labeling
 
 * Color
-** w = White
-** b = Black
+    * w = White
+    * b = Black
 
 * Type
-** e = Empty
-** p = pawn
-** n = knight
-** b = Bishop
-** r = Rook
-** q = Queen
-** k = King
+    * e = Empty
+    * p = pawn
+    * n = knight
+    * b = Bishop
+    * r = Rook
+    * q = Queen
+    * k = King
