@@ -1,4 +1,4 @@
-# CNN_ChessBoard
+# Capstone Project - ChessBoard Recognition
 
 ## Overview of Output Labeling
 
@@ -25,24 +25,14 @@ Output will look like the following example:
 
 Predicted chess board:
 
-|br|bn|bb|bq|br|bb|bn|br|
-|bn|bp|bp|bp|bp|bp|bp|bp|
-|es|es|es|es|es|es|es|es|
-|es|es|es|es|es|es|es|es|
-|es|es|es|es|es|es|es|es|
-|es|es|es|es|es|es|es|es|
-|wp|wp|wp|wp|wp|wp|wp|wp|
-|wr|wn|wb|wq|wk|wb|wn|wr|
-
-Predicted chess board:
-|es|es|es|es|bk|es|bn|br|
-|bp|bp|bp|bp|es|bp|es|bp|
-|es|es|bn|bb|bb|es|bp|es|
-|es|br|es|es|bp|es|es|es|
-|es|wp|wn|es|wp|wp|es|bq|
-|es|es|es|es|es|wn|wp|es|
-|wp|es|wp|wp|es|es|es|wp|
-|wr|es|wb|wq|wk|wb|es|wr|
+br|bn|bb|bq|br|bb|bn|br
+bn|bp|bp|bp|bp|bp|bp|bp
+es|es|es|es|es|es|es|es
+es|es|es|es|es|es|es|es
+es|es|es|es|es|es|es|es
+es|es|es|es|es|es|es|es
+wp|wp|wp|wp|wp|wp|wp|wp
+wr|wn|wb|wq|wk|wb|wn|wr
 
 ## Setup
 
