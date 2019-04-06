@@ -1,6 +1,6 @@
 # CNN_ChessBoard
 
-# Setup
+## Setup
 
 Data is available here: https://www.kaggle.com/dcuomo56/chess-board-data
 
@@ -70,3 +70,18 @@ Capstone Project
     │   Neural Network Data Generator Augmentation.ipynb
     │   Neural Network Data Generator Augmentation Color.ipynb
 ```
+
+## Overview of Output Labeling
+
+* Color
+** w = White
+** b = Black
+
+* Type
+** e = Empty
+** p = pawn
+** n = knight
+** b = Bishop
+** r = Rook
+** q = Queen
+** k = King

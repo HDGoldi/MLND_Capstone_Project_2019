@@ -30,15 +30,26 @@ def main():
 	Two examples of loading a test image that has the same baseline, predicting the pieces
 	and outputting to screen a board example
 	"""
-	test_board_path = 'data/board_photos/test/IMG_20181005_162420.jpg'
+
+	test_board_path = 'data/board_photos/test/baseline_board.jpg'
+	test_board = GameBoardGenerator(game_board.board_split(test_board_path,1),chess_model)
+	test_board.predict_pieces()
+	test_board.display_board()
+    
+	test_board_path = 'data/board_photos/test/IMG_20181005_162344.jpg'
 	test_board = GameBoardGenerator(game_board.board_split(test_board_path,1),chess_model)
 	test_board.predict_pieces()
 	test_board.display_board()
 
+	test_board_path_2 = 'data/board_photos/test/IMG_20181005_162420.jpg'
+	test_board2 = GameBoardGenerator(game_board.board_split(test_board_path_2,1),chess_model)
+	test_board2.predict_pieces()
+	test_board2.display_board()
+    
 	test_board_path_2 = 'data/board_photos/test/IMG_20181005_162943.jpg'
 	test_board2 = GameBoardGenerator(game_board.board_split(test_board_path_2,1),chess_model)
 	test_board2.predict_pieces()
 	test_board2.display_board()
-
+    
 if __name__ == "__main__":
 	main()

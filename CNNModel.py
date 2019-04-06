@@ -3,13 +3,13 @@
 import numpy as np
 import pandas as pd
 
-import keras
-from keras.preprocessing.image import ImageDataGenerator
-from keras.layers import Conv2D, MaxPooling2D, GlobalAveragePooling2D, BatchNormalization
-from keras.layers import Dropout, Flatten, Dense
-from keras.models import Sequential
-from keras.optimizers import RMSprop
-from keras.callbacks import ModelCheckpoint
+import tensorflow.keras
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, GlobalAveragePooling2D, BatchNormalization
+from tensorflow.keras.layers import Dropout, Flatten, Dense
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.optimizers import RMSprop
+from tensorflow.keras.callbacks import ModelCheckpoint
 from sklearn.metrics import confusion_matrix
 
 
