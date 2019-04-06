@@ -1,4 +1,37 @@
-# CNN_ChessBoard
+# Capstone Project - ChessBoard Recognition
+
+## Overview of Output Labeling
+
+* Color
+    * w = White
+    * b = Black
+
+* Type
+    * e = Empty
+    * p = pawn
+    * n = knight
+    * b = Bishop
+    * r = Rook
+    * q = Queen
+    * k = King
+
+
+## Example Usage
+
+select Images to be predicted in `ChessMain.py`
+Run `pyton ChessMain.py`
+
+Output will look like the following example:
+
+`Predicted chess board:\
+br|bn|bb|bq|br|bb|bn|br\
+bn|bp|bp|bp|bp|bp|bp|bp\
+es|es|es|es|es|es|es|es\
+es|es|es|es|es|es|es|es\
+es|es|es|es|es|es|es|es\
+es|es|es|es|es|es|es|es\
+wp|wp|wp|wp|wp|wp|wp|wp\
+wr|wn|wb|wq|wk|wb|wn|wr`
 
 ## Setup
 
@@ -70,18 +103,3 @@ Capstone Project
     │   Neural Network Data Generator Augmentation.ipynb
     │   Neural Network Data Generator Augmentation Color.ipynb
 ```
-
-## Overview of Output Labeling
-
-* Color
-** w = White
-** b = Black
-
-* Type
-** e = Empty
-** p = pawn
-** n = knight
-** b = Bishop
-** r = Rook
-** q = Queen
-** k = King
